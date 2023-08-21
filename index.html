@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            margin: 20px auto;
+            width: 400px;
+            height: 100vh;
+        }
+        form{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        label{
+            font-weight: 600;
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+        input{
+            height: 40px;
+            border: black 2px solid;
+            border-radius: 5px;
+        }
+        .btn{
+            height: 40px;
+            width: 200px;
+            margin: 20px auto;
+            border: none;
+            background-color: blue;
+            color: white;
+            border-radius: 10px;
+        }
+        .error{
+            border: red 2px solid;
+        }
+        span{
+            font-size: 10px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form name="signup">
+            <label>Name <br>
+                <input type="text" name="Name" class="The_Some">
+                <br>
+                <span>Need to full</span> 
+            </label> <br>
+            <label>SurName <br>
+                <input type="text" name="SurName"> 
+            </label> <br>
+            <label>Email Adress <br>
+                <input type="email" name="Email Adress" class="The_Some">
+                <br>
+                <span>Need to full</span> 
+            </label><br>
+            <label>Phone number <br>
+                <input type="number" name="Phone number">
+            </label> <br>
+            <label>Your Mom's Name <br>
+                <input type="text" name="Your Mom's Name">
+            </label> <br>
+            <label>Your Pap's Name<br>
+                <input type="text" name="Your Pap's Name">
+            </label> <br>
+            <label>Age<br>
+                <input type="number" name="Age" class="The_Some">
+                <br>
+                <span>Need to full</span> 
+            </label> <br>
+            <label>About You <br>
+                <input type="text" name="About You" class="The_Some">
+                <br>
+                <span>Need to full</span> 
+            </label> <br>
+            <label>What is JS <br>
+                <input type="text" name="What is JS" class="The_Some">
+                <br>
+                <span>Need to full</span> 
+            </label> <br>
+            <label>What is HTML<br>
+                <input type="text" name="What is HTML" class="The_Some">
+                <br>
+                <span>Need to full</span> 
+            </label> <br>
+            <label>What is CSS<br>
+                <input type="text" name="What is CSS" class="The_Some">
+                <br>
+                <span>Need to full</span> 
+            </label> <br>
+            <label>Your favourite car <br>
+                <input type="text" name="Your favourite car">
+            </label> <br>
+            <button class="btn">Save Changes</button>
+        </form>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
